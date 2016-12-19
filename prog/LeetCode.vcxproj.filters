@@ -44,5 +44,8 @@
     <ClCompile Include="..\src\t54.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\t152.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

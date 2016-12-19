@@ -11,8 +11,9 @@
 void testT16();
 void testT18();
 void testT54();
+void testT152();
 
 void entry_testALL()
 {
-	testT54();
+	testT152();
 }
