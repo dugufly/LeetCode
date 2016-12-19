@@ -9,8 +9,9 @@
 //#endif
 
 void testT16();
+void testT18();
 
 void entry_testALL()
 {
-	testT16();
+	testT18();
 }
