@@ -10,8 +10,9 @@
 
 void testT16();
 void testT18();
+void testT54();
 
 void entry_testALL()
 {
-	testT18();
+	testT54();
 }

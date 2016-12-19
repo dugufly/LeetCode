@@ -87,6 +87,7 @@
     <ClCompile Include="..\src\entry.c" />
     <ClCompile Include="..\src\t16.c" />
     <ClCompile Include="..\src\t18.c" />
+    <ClCompile Include="..\src\t54.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
