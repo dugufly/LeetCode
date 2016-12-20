@@ -13,7 +13,9 @@ void testT18();
 void testT54();
 void testT152();
 
+void testAS1002();
+
 void entry_testALL()
 {
-	testT152();
+	testAS1002();
 }
