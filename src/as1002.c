@@ -1,6 +1,6 @@
 /*
 http://172.17.11.34/JudgeOnline/problem.php?id=1002
-来源：湖南省第六届大学生计算机程序设计竞赛
+来源：湖南省第六届大学生计算机程序设计竞赛 题目C
 
 题目描述
 定理：把一个至少两位的正整数的个位数字去掉，再从余下的数中减去个位数的5倍。当且仅当差是17的倍数时，原数也是17的倍数 。
@@ -35,6 +35,8 @@ http://172.17.11.34/JudgeOnline/problem.php?id=1002
 #include <math.h>
 #include <string.h>
 
+
+//This is my code
 void is17BeiShu()
 {
 	char dataArray[200] = { 0 };
@@ -107,9 +109,28 @@ void is17BeiShu()
 	}
 }
 
+//This is sb's code
+void is17BeiShu2()
+{
+	
+	char s[101];
+	while (scanf("%s", &s) == 1 && s[0] != '0')
+	{
+		int m = 0;
+		for (int i = 0; i < strlen(s); i++)
+		{
+			m = (m * 10 + s[i] - '0') % 17;
+			//printf("%d ", m);
+		}
+		printf("%d\n", m == 0 ? 1 : 0);//如果m=0 返回1；反之 返回0
+
+	}
+	
+}
+
 void testAS1002()
 {
 
-	is17BeiShu();
+	is17BeiShu2();
 	system("pause");
 }
