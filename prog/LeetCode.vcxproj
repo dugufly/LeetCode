@@ -87,6 +87,7 @@
   <ItemGroup>
     <ClCompile Include="..\src\as1002.c" />
     <ClCompile Include="..\src\entry.c" />
+    <ClCompile Include="..\src\t046.c" />
     <ClCompile Include="..\src\t152.c" />
     <ClCompile Include="..\src\t16.c" />
     <ClCompile Include="..\src\t18.c" />

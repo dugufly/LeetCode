@@ -56,5 +56,8 @@
     <ClCompile Include="..\src\as1002.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\t046.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
