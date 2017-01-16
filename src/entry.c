@@ -17,5 +17,5 @@ void testAS1002();
 
 void entry_testALL()
 {
-	testT046();
+	testT485();
 }
